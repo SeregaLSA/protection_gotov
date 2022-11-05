@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
+
+.web {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #4A4A4A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.overflow {
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+/* Шапка */
+.first_logotype {
+    margin-top: 29px;
+}
+.first_nav {
+    margin-top: 26px;
+}
+.first_nav ul {
+    list-style: none;
+}
+
+.first_nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+
+.first_nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+.first_logotype {
+    float: left;
+} 
+.first_nav {
+    float: right;
+}
+
+.first_nav ul li a {
+    color: #666666;
+    font-size: 16px;
+    text-decoration: none;
+    transition: .3s;
+    border-bottom: 1px solid transparent;
+    padding: 1px;
+
+}
+.first_nav ul li a:hover {
+    border-bottom: 1px solid #2f03ce;
+}
+
+.first_nav ul li a:active {
+    color: #D3D3D3;
+    border-bottom: 1px solid #2f03ce;
+}
+
+.first_nav ul li:last-of-type {
+    margin-right: 0;
+}
+.first_nav a {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Второй блок */
+.block2_left {
+    width: 50%;
+    float: left;
+}
+.block2_right {
+    width: 50%;
+    float: left;
+}
+.block2_left h1 {
+    margin-top: 120px;
+}
+.block2_left p {
+    margin-top: 20px;
+}
+.block2_left p {
+    color: #4A4A4A;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.block2_left h1 {
+    font-size: 48px;
+}
+
+/* Третий блок */
+
+.block3_left {
+    width: 50% auto;
+    float: left;
+    margin-left: -65px;
+    
+}
+.block3_right {
+    width: 50%;
+    float: left;
+    
+}
+
+.block3_right p {
+    color: #4A4A4A;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.block3_right h2 {
+    font-size: 36px;
+    margin-left: 20px;
+    margin-top: 150px;
+    
+}
+.block3_right a {
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+
+/* Четвертый блок */
+
+.block4_left {
+    width: 50%;
+    float: left;
+    
+}
+.block4_right {
+    width: 50%;
+    float: left;
+    
+}
+.block4_left h2 {
+    font-size: 36px;
+    margin-top: 150px;
+}
+.block4_left p {
+    color: #4A4A4A;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.block4_left a {
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    
+    text-decoration: none;
+}
+
+/* Пятый блок */
+.block5 h3 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+/* Шестой блок */
+.block6 {
+    overflow: hidden;
+    margin-top: 14px;
+    margin-bottom: 150px;
+}
+
+.card {
+    width: 330px;
+    float: left;
+    margin-right: 30px;
+}
+.card:last-of-type {
+    margin-right: 0;
+}
+
+.wrapper-text {
+    width: 1000px;
+    margin: 0 auto;
+}
+.block6-text {
+    overflow: hidden;
+    margin-top: -206px;
+    margin-bottom: 50px;
+}
+
+.block6-1-text {
+    overflow: hidden;
+    margin-top: -206px;
+    margin-bottom: 60px;
+}
+
+.card-text {
+    width: 280px;
+    background-color: rgba(255, 255, 255, 0.6);
+    float: left;
+    margin-right: 80px;
+}
+.card-text:last-of-type {
+    margin-right: 0;
+}
+.big-text {
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #4A4A4A;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.small-text {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    color: #4A4A4A;
+    margin-top: 14px;
+    padding-left: 20px;
+}
+
+
+
+/* Седьмой блок */
+.block7 {
+    margin: 0px 0;
+    background-color: #EEEEEE;
+    padding: 0px 0;
+    overflow: hidden;
+}
+
+.block7_left {
+    width: 50%;
+    float: left;
+}
+.block7_right {
+    width: 50%;
+    float: right;
+}
+.block7_left h2 {
+    font-size: 32px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.block7_left p {
+    color: #4A4A4A;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 80px;
+}
+
+
+input::placeholder {
+    color: #979797;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+.block7_right input {
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 8px;
+    padding-right: 167px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #979797;
+    margin-top: 84px;
+}
+.button {
+    background-color: rgba(29, 111, 243, 1);
+    padding: 0px 24px 5px 23px;
+    border-radius: 0px 5px 5px 0px;
+    width: 121px;
+    height: 32px;
+    color: #fff;
+    font-size: 18px;
+    margin-left: -5px;
+    font-family: 'Titillium Web', sans-serif;
+    transition: background-color .2s;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* восьмой блок "Подвал" */
+.footer {
+    margin-top: 0px;
+    padding: 60px 0;
+
+}
+
+.academy, .works, .from, .get {
+    width: 25%;
+    float: left;
+}
+
+.academy, .works, .from, .get p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #4A4A4A;
+    font-weight: 700;
+    
+}
+
+.academy ul {
+    margin-top: 20px;
+}
+
+.academy ul li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.academy ul li:last-of-type {
+    margin-bottom: 0;
+}
+
+.academy ul li a {
+    color: rgba(99, 114, 128, 1);
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    transition: .3s;
+    border-bottom: 1px solid transparent;
+    padding: 1px;
+}
+
+.academy ul li a:hover {
+    border-bottom: 1px solid #2f03ce;
+}
+
+.academy ul li a:active {
+    color: #D3D3D3;
+    border-bottom: 1px solid #2f03ce;
+}
+
+/* вторая колонка */
+.works ul {
+    margin-top: 20px;
+}
+.works ul li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+.works ul li:last-of-type {
+    margin-bottom: 0;
+}
+.works ul li a {
+    color: rgba(99, 114, 128, 1);
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    transition: .3s;
+    border-bottom: 1px solid transparent;
+    padding: 1px;
+}
+.works ul li a:hover {
+    border-bottom: 1px solid #2f03ce;
+}
+.works ul li a:active {
+    color: #D3D3D3;
+    border-bottom: 1px solid #2f03ce;
+}
+
+/* Третья колонка */
+.from ul {
+    margin-top: 20px;
+}
+.from ul li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+.from ul li:last-of-type {
+    margin-bottom: 0;
+}
+.from ul li a {
+    color: rgba(99, 114, 128, 1);
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    transition: .3s;
+    border-bottom: 1px solid transparent;
+    padding: 1px;
+}
+.from ul li a:hover {
+    border-bottom: 1px solid #2f03ce;
+}
+.from ul li a:active {
+    color: #D3D3D3;
+    border-bottom: 1px solid #2f03ce;
+}
+
+/* Четвертая колонка */
+.get ul {
+    margin-top: 20px;
+}
+.get ul li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+.get ul li:last-of-type {
+    margin-bottom: 0;
+}
+.get ul li a {
+    color: rgba(99, 114, 128, 1);
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    transition: .3s;
+    border-bottom: 1px solid transparent;
+    padding: 1px;
+}
+.get ul li a:hover {
+    border-bottom: 1px solid #2f03ce;
+}
+.get ul li a:active {
+    color: #D3D3D3;
+    border-bottom: 1px solid #2f03ce;
+}
+
+/*Ссылки на соцсети*/
+.socc ul {
+    list-style: none;
+}
+.socc ul li {
+    display: inline-block;
+    margin-right: 9px;
+    
+}
+.socc ul li:last-of-type {
+    margin-right: 0;
+}
+.socc {
+    float: left;
+}
+
